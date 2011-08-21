@@ -1,7 +1,7 @@
 What Is This?
 -------------
 
-This code shows how to the `Thin <http://code.macournoyer.com/thin/>`_
+This code shows how to run the `Thin <http://code.macournoyer.com/thin/>`_
 web server on `DotCloud <http://www.dotcloud.com/>`_.
 
 Thin is a fast asynchronous web server, able to run Rack and Rails apps.
@@ -36,16 +36,27 @@ To streamline scaling and deployment, we use a Gemfile (to install the
 thin gem automatically), as well as the god process manager (to start
 Thin automatically).
 
-If you want to see how this sample app was built, we invite you to:
+**This repository is also a step-by-step tutorial:** each commit
+corresponds to one step, with the commit message providing explanations. 
 
-* see the big picture with GitHub's awesome `compare view
-  <https://github.com/jpetazzo/thin/compare/yes...master>`_ --
-  click on each individual commit to see detailed explanations for each step;
-* if you prefer text mode (or offline inspection), fallback on
-  ``git log --patch --reverse``;
-* dive into `DotCloud documentations <http://docs.dotcloud.com/>`_, especially
-  the one for the `Ruby service <http://docs.dotcloud.com/services/ruby/>`_
-  which is used by this app.
+You can view the whole tutorial, and the modified files at each step,
+with at least three different methods:
+
+* by using GitHub's awesome `compare view
+  <https://github.com/jpetazzo/thin/compare/begin...end>`_:
+  you will see the list of commits involved in the tutorial, and by
+  clicking on each individual commit, you will see the file modifications
+  for this step;
+* by running ``git log --patch --reverse`` in your local repository,
+  for a text-mode equivalent (with the added benefit of being available
+  offline!);
+* by browsing a more `traditional version 
+  <http://docs.dotcloud.com/tutorials/ruby/thin/>`_ on DotCloud's
+  documentation website.
+
+You can also learn more by diving into `DotCloud documentations
+<http://docs.dotcloud.com/>`_, especially the one for the `Ruby service
+<http://docs.dotcloud.com/services/ruby/>`_ which is used by this app.
 
 
 Is This A Hack?
