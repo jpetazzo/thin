@@ -47,9 +47,9 @@ with at least three different methods:
   you will see the list of commits involved in the tutorial, and by
   clicking on each individual commit, you will see the file modifications
   for this step;
-* by running ``git log --patch --reverse`` in your local repository,
-  for a text-mode equivalent (with the added benefit of being available
-  offline!);
+* by running ``git log --patch --reverse begin..end`` in your local
+  repository, for a text-mode equivalent (with the added benefit of being
+  available offline!);
 * by browsing a more `traditional version 
   <http://docs.dotcloud.com/tutorials/ruby/thin/>`_ on DotCloud's
   documentation website.
